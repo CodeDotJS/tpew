@@ -18,7 +18,7 @@ test.cb('stat', t => {
 	cp.on('error', t.ifError);
 
 	cp.on('close', code => {
-		t.is(code, 0);
+		t.is(code, 1);
 		t.end();
 	});
 });
