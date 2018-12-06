@@ -1,0 +1,54 @@
+{
+  "name": "tpew",
+  "version": "1.0.0",
+  "description": "Almost real-time subscribers counter for PewDiePie vs T-Series, directly from command line!",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/tpew.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishi.ml)",
+  "bin": {
+    "tpew": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "T-Series",
+    "PewDiePie",
+    "comparision",
+    "stat",
+    "counter",
+    "live",
+    "compare"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs-extra": "^7.0.1",
+    "got": "^9.3.2",
+    "jsonfile": "^5.0.0",
+    "log-update": "^2.3.0",
+    "ora": "^3.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/tpew/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/tpew#readme",
+  "main": "cli.js"
+}
